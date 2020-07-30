@@ -13,10 +13,6 @@ ol, ul {
   display: table;
 }
 
-.status {
-  margin-bottom: 10px;
-}
-
 .pixel {
   border: 1px solid #999;
   float: left;
@@ -39,11 +35,20 @@ ol, ul {
   background: #ddd;
 }
 
-.game {
-  display: flex;
-  flex-direction: row;
+.inkwell {
+  border: 1px solid #999;
+  float: left;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 34px;
+  height: 20px;
+  width: 20px;
+  margin-right: -1px;
+  margin-top: -1px;
+  padding: 0;
+  text-align: center;
 }
 
-.game-info {
-  margin-left: 20px;
+.inkwell:focus {
+  outline: none;
 }
